@@ -2,7 +2,7 @@
 
 namespace EpidLib
 {
-    public static class About
+    public class About
     {
         public static string Info => "Библиотека классов для моделирования развития эпидемии";
         public static int Ver => 0;

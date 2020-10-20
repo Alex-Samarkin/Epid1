@@ -18,10 +18,10 @@ namespace EpidLib
         {
             Type t = typeof(Virus);
             PropertyInfo[] propertyInfo = t.GetProperties();
-            string s = base.ToString()+" ";
+            string s = base.ToString() + " ";
             foreach (var item in propertyInfo)
             {
-                s += item.Name + " " + item.GetValue(this,null)+" ";
+                s += item.Name + " " + item.GetValue(this, null) + " ";
             }
 
             return s;
